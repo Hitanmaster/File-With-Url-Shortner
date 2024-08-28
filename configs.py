@@ -8,8 +8,8 @@ class Config(object):
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002144315244"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "publicearn.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "765562fc440b6ae6275da96cad3370270073634d")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", "7233389466"))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb://Himanshu:Himanshu0987@cluster0/?ssl=true&replicaSet=atlas-ftoi26-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0")
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "7233389466")) #mongodb://Himanshu:Himanshu0987@cluster0/?ssl=true&replicaSet=atlas-ftoi26-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Himanshu:Himanshu0987@cluster0.86lnd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002163116037")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002163116037"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())

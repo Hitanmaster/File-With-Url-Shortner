@@ -5,7 +5,7 @@ class Config(object):
   API_HASH = os.environ.get("API_HASH", "2d41c2224fd999a81f6c90ce68b0454a")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6926547228:AAGWVc-PuZu0ZSU-q5pOu1AJCzshUkg16p8")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "snap_providers_bot")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002144315244"))
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002171776775"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "publicearn.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "765562fc440b6ae6275da96cad3370270073634d")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "7233389466")) #mongodb://Himanshu:Himanshu0987@cluster0/?ssl=true&replicaSet=atlas-ftoi26-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0

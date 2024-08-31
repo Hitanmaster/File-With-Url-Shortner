@@ -6,8 +6,8 @@ class Config(object):
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6926547228:AAGWVc-PuZu0ZSU-q5pOu1AJCzshUkg16p8")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "snap_providers_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002171776775"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "adrinolinks.in")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "f7ed9ff24e0ea9e61abbbfd11cf15b6ba4f351c4")
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "runurl.in")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "a27592d9eeeb5340c07d7df200745c3ecace94e0")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "7233389466")) #mongodb://Himanshu:Himanshu0987@cluster0/?ssl=true&replicaSet=atlas-ftoi26-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Himanshu:Himanshu0987@cluster0.86lnd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002185117407")
